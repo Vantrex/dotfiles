@@ -1,7 +1,8 @@
 #!/bin/bash
 
-echo "Installing fastfetch"
+echo "Installing packages.."
+sudo pacman -Sy kitty
 sudo pacman -Sy fastfetch
-sudo pacman -S fzf
-sudo pacman -S zsh
+sudo pacman -Sy fzf
+sudo pacman -Sy zsh
 sudo yay -S rofi-lbonn-wayland-git
