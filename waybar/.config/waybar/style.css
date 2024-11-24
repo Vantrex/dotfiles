@@ -19,6 +19,11 @@ window#waybar.hidden {
 #workspaces {
   background-color: transparent;
 }
+.logout {
+  color: #ff5555;
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+}
 
 #workspaces button {
   all: initial;

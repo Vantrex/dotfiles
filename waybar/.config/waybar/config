@@ -24,6 +24,7 @@
         "temperature",
         //"hyprland/language",
         "clock",
+	"custom/logout"
     ],
     // Modules configuration
      "hyprland/workspaces": {
@@ -37,6 +38,12 @@
              "default": ""
          }
      },
+     "custom/logout": {
+	"exec": "~/.config/waybar/scripts/logout.sh",
+	"return-type": "json",
+	"on-click": "wlogout",
+	"interval": 600
+    }, 
     "keyboard-state": {
         "numlock": true,
         "capslock": true,
