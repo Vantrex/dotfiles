@@ -1,0 +1,107 @@
+{
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "menus.media.hideAuthor": false,
+  "menus.clock.time.military": false,
+  "menus.clock.time.hideSeconds": false,
+  "wallpaper.pywal": false,
+  "theme.bar.transparent": false,
+  "theme.bar.opacity": 20,
+  "theme.bar.buttons.style": "default",
+  "menus.clock.weather.enabled": true,
+  "menus.clock.weather.location": "Los Angeles",
+  "menus.clock.weather.unit": "imperial",
+  "menus.dashboard.powermenu.avatar.name": "system",
+  "theme.osd.enable": true,
+  "theme.bar.floating": false,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.monitorSpecific": true,
+  "bar.workspaces.numbered_active_indicator": "highlight",
+  "bar.workspaces.applicationIconOncePerWorkspace": true,
+  "bar.workspaces.showApplicationIcons": false,
+  "bar.workspaces.workspaceMask": false,
+  "theme.bar.location": "top",
+  "bar.autoHide": "fullscreen",
+  "theme.bar.border.location": "none",
+  "theme.bar.enableShadow": false,
+  "theme.bar.buttons.enableBorders": false,
+  "theme.bar.buttons.workspaces.smartHighlight": true,
+  "theme.bar.buttons.modules.netstat.enableBorder": false,
+  "bar.customModules.netstat.dynamicIcon": false,
+  "theme.bar.buttons.clock.enableBorder": false,
+  "menus.transition": "crossfade",
+  "bar.customModules.microphone.label": true,
+  "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "menus.dashboard.stats.enable_gpu": false,
+  "scalingPriority": "gdk",
+  "notifications.ignore": [
+    "Spotify"
+  ],
+  "menus.media.hideAlbum": false,
+  "theme.bar.background": "#241f31",
+  "theme.bar.menus.menu.media.background.color": "#5e5c64",
+  "theme.bar.buttons.media.enableBorder": false,
+  "bar.media.truncation": true,
+  "bar.media.show_label": true,
+  "bar.media.show_active_only": true,
+  "theme.bar.buttons.systray.enableBorder": false,
+  "bar.battery.label": false,
+  "bar.network.label": false,
+  "bar.network.truncation": false,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+	"microfone",
+        "volume",
+        "clock",
+	"ram",
+	"cpu",
+	"weather",
+	"cputemp",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+	"bluetooth",
+        "notifications"
+      ]
+    }
+  }
+}
