@@ -82,8 +82,8 @@
         "clock",
 	"ram",
 	"cpu",
-	"weather",
 	"cputemp",
+	"weather",
         "notifications"
       ]
     },
