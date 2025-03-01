@@ -77,13 +77,13 @@
         "media"
       ],
       "right": [
-	"microfone",
+        "microfone",
         "volume",
         "clock",
-	"ram",
-	"cpu",
-	"cputemp",
-	"weather",
+        "ram",
+        "cpu",
+        "cputemp",
+        "weather",
         "notifications"
       ]
     },
@@ -99,9 +99,10 @@
       "right": [
         "volume",
         "clock",
-	"bluetooth",
+        "bluetooth",
         "notifications"
       ]
     }
-  }
+  },
+  "bar.customModules.cpuTemp.sensor": "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input"
 }
