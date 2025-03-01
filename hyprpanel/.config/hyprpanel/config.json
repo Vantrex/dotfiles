@@ -1,15 +1,15 @@
 {
   "bar.customModules.updates.pollingInterval": 1440000,
   "menus.media.hideAuthor": false,
-  "menus.clock.time.military": false,
+  "menus.clock.time.military": true,
   "menus.clock.time.hideSeconds": false,
   "wallpaper.pywal": false,
   "theme.bar.transparent": false,
   "theme.bar.opacity": 20,
   "theme.bar.buttons.style": "default",
   "menus.clock.weather.enabled": true,
-  "menus.clock.weather.location": "Los Angeles",
-  "menus.clock.weather.unit": "imperial",
+  "menus.clock.weather.location": "08224",
+  "menus.clock.weather.unit": "metric",
   "menus.dashboard.powermenu.avatar.name": "system",
   "theme.osd.enable": true,
   "theme.bar.floating": false,
@@ -104,5 +104,21 @@
       ]
     }
   },
-  "bar.customModules.cpuTemp.sensor": "/sys/devices/platform/coretemp.0/hwmon/hwmon6/temp1_input"
+  "bar.customModules.cpuTemp.sensor": "/sys/devices/platform/coretemp.0/hwmon/hwmon5/temp1_input",
+  "menus.media.displayTime": true,
+  "bar.launcher.autoDetectIcon": false,
+  "bar.customModules.ram.labelType": "percentage",
+  "bar.customModules.cpuTemp.pollingInterval": 100,
+  "bar.customModules.netstat.pollingInterval": 12100,
+  "bar.customModules.cpuTemp.unit": "metric",
+  "menus.clock.weather.key": "b99ca4c6ff8f4af9bd3140122250103",
+  "bar.customModules.weather.unit": "metric",
+  "bar.clock.showTime": true,
+  "bar.clock.showIcon": true,
+  "theme.font.name": "Monospace",
+  "theme.font.label": "Monospace",
+  "menus.media.displayTimeTooltip": true,
+  "wallpaper.image": "/home/marinus/Pictures/backgrounds/gate_water.jpg",
+  "wallpaper.enable": false,
+  "bar.clock.format": "%a %b %d %H:%M"
 }
