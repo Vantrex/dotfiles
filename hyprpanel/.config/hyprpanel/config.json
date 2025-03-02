@@ -8,7 +8,7 @@
   "theme.bar.opacity": 20,
   "theme.bar.buttons.style": "default",
   "menus.clock.weather.enabled": true,
-  "menus.clock.weather.location": "08224",
+  "menus.clock.weather.location": "Gundremmingen",
   "menus.clock.weather.unit": "metric",
   "menus.dashboard.powermenu.avatar.name": "system",
   "theme.osd.enable": true,
@@ -118,7 +118,9 @@
   "theme.font.name": "Monospace",
   "theme.font.label": "Monospace",
   "menus.media.displayTimeTooltip": true,
-  "wallpaper.image": "/home/marinus/Pictures/backgrounds/gate_water.jpg",
-  "wallpaper.enable": false,
-  "bar.clock.format": "%a %b %d %H:%M"
+  "wallpaper.image": "/home/marinus/Pictures/backgrounds/mmiyagi_japan.jpg",
+  "wallpaper.enable": true,
+  "bar.clock.format": "%a %b %d %H:%M",
+  "bar.notifications.show_total": true,
+  "bar.notifications.hideCountWhenZero": true
 }
