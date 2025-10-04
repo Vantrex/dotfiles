@@ -24,7 +24,7 @@
         "temperature",
         //"hyprland/language",
         "clock",
-	"custom/logout"
+	      "custom/logout"
     ],
     // Modules configuration
      "hyprland/workspaces": {

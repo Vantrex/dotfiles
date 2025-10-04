@@ -3,7 +3,7 @@
   "menus.media.hideAuthor": false,
   "menus.clock.time.military": true,
   "menus.clock.time.hideSeconds": false,
-  "wallpaper.pywal": false,
+  "wallpaper.pywal": true,
   "theme.bar.transparent": false,
   "theme.bar.opacity": 20,
   "theme.bar.buttons.style": "default",
@@ -11,7 +11,7 @@
   "menus.clock.weather.location": "Gundremmingen",
   "menus.clock.weather.unit": "metric",
   "menus.dashboard.powermenu.avatar.name": "system",
-  "theme.osd.enable": true,
+  "theme.osd.enable": false,
   "theme.bar.floating": false,
   "bar.workspaces.show_numbered": false,
   "bar.workspaces.showWsIcons": true,
@@ -34,7 +34,7 @@
   "bar.customModules.microphone.label": true,
   "menus.dashboard.shortcuts.left.shortcut1.command": "firefox",
   "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
-  "menus.dashboard.stats.enable_gpu": false,
+  "menus.dashboard.stats.enable_gpu": true,
   "scalingPriority": "gdk",
   "notifications.ignore": [
     "Spotify"
@@ -77,12 +77,11 @@
         "media"
       ],
       "right": [
-        "microfone",
+        "microphone",
         "volume",
         "clock",
         "ram",
         "cpu",
-        "cputemp",
         "weather",
         "notifications"
       ]
@@ -104,7 +103,6 @@
       ]
     }
   },
-  "bar.customModules.cpuTemp.sensor": "/sys/devices/platform/coretemp.0/hwmon/hwmon5/temp1_input",
   "menus.media.displayTime": true,
   "bar.launcher.autoDetectIcon": false,
   "bar.customModules.ram.labelType": "percentage",
@@ -122,5 +120,13 @@
   "wallpaper.enable": true,
   "bar.clock.format": "%a %b %d %H:%M",
   "bar.notifications.show_total": true,
-  "bar.notifications.hideCountWhenZero": true
+  "bar.notifications.hideCountWhenZero": true,
+  "theme.matugen": false,
+  "theme.matugen_settings.mode": "dark",
+  "theme.matugen_settings.scheme_type": "rainbow",
+  "theme.matugen_settings.variation": "standard_3",
+  "theme.bar.menus.monochrome": false,
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
 }
